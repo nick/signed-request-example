@@ -1,6 +1,5 @@
 var express = require('express'),
     bodyParser = require('body-parser'),
-    views = require('./views'),
     crypto = require('crypto');
 
 var app = express();
