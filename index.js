@@ -7,8 +7,8 @@ var app = express();
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
-const CLIENT_ID = 'b7804330d26afc584231';
-const CLIENT_SECRET = '2686b85cc510667d916da73dba2567b26da750316ecacb7362b0ecc79f19';
+const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
 const AF_URL = 'http://bd9:5000';
 const BASE_URL = 'http://localhost:3000'
 
