@@ -6,7 +6,7 @@ This example takes a signed_request body and displays an auth token.
 
 * Sign up with [Heroku](https://signup.heroku.com/)
 * Install the [Heroku toolbelt](https://devcenter.heroku.com/articles/heroku-command-line)
-* Clone this repo and push to Heroku:
+* Clone this repo and deploy to Heroku:
 ```
 git clone https://github.com/nick/signed-request-example.git
 cd signed-request-example
