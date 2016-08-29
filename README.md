@@ -16,5 +16,5 @@ git push heroku master
 * Create your Developer Application using the new URI provided by Heroku.
 * Enter your new Client ID and Secret as Heroku environment variables:
 ```
-heroku config set CLIENT_ID=abc123 CLIENT_SECRET=def456
+heroku config:set CLIENT_ID=abc123 CLIENT_SECRET=def456
 ```
