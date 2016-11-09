@@ -28,7 +28,7 @@ app.post('/canvas', function(req, res, next) {
             return res.send("Bad data");
         }
     } catch(e) {
-        return res.send('Could not decode request');
+        return res.send('Could not decode requestt');
     }
 
     res.send(HTML(data));
